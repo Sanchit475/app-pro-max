@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Expense</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>SmartFinance</h2>
+
+<div>
+<a href="index.html">Dashboard</a>
+<a href="add.html">Add</a>
+<a href="history.html">History</a>
+<a href="analytics.html">AI Analytics</a>
+<a href="groups.html">Groups</a>
+</div>
+</nav>
+
+<div class="container">
+
+<h2>Add Transaction</h2>
+
+<form id="form">
+
+<input type="text" id="text" placeholder="Description" required>
+
+<select id="category">
+<option>Food</option>
+<option>Travel</option>
+<option>Bills</option>
+<option>Shopping</option>
+<option>Other</option>
+</select>
+
+<input type="number" id="amount" placeholder="Amount (+income / -expense)" required>
+
+<button>Add</button>
+
+</form>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
