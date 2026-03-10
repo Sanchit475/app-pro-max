@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Group Expenses</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>SmartFinance</h2>
+
+<div>
+<a href="index.html">Dashboard</a>
+<a href="add.html">Add</a>
+<a href="history.html">History</a>
+<a href="analytics.html">AI Analytics</a>
+<a href="groups.html">Groups</a>
+</div>
+
+</nav>
+
+<div class="container">
+
+<h2>Split Expense</h2>
+
+<input id="members" placeholder="Members (comma separated)">
+<input id="groupAmount" placeholder="Total Amount">
+
+<button onclick="splitExpense()">Split</button>
+
+<p id="result"></p>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
